@@ -1,0 +1,84 @@
+
+    button{
+        background-color: gray;
+        padding: 10px;
+        font-size: 15pt;
+        border-radius: 10px;
+        color: aliceblue;
+        border:none;
+        margin: 5px;
+        transition: 500ms all ease
+    
+    }
+/*este es un selector mixto, etiqueta y clase */
+    button.success{
+        background-color: green;
+    border:3px solid green;
+        color:white;
+        padding:7px;    
+    
+    }
+    button:hover{
+        transform: scale(1.40)
+    }
+    .fondoverde{
+        background-color: green;
+    border:none;
+        color:white;
+        padding:7px;
+    
+    }
+   .success-outlline{
+        background-color: white;
+        border:3px solid green;
+        color:green;
+        padding:7px;
+
+    }   
+        button.round{
+            border-radius: 40px;
+        } 
+
+    button.warning{
+        background-color: orange;
+        color: white;
+        border:3px  solid orange;
+        padding: 7px;   
+    }
+   button.danger{
+        background-color: white;
+        color: red;
+        border:3px  solid red;
+        padding: 7px;
+        
+    
+    }
+    button.danger:hover{
+        color:black;
+    }
+
+
+    button.successshadow{
+        background-color: rgb(24, 99, 24);
+        border-radius: 10px;
+        border-bottom: 6px solid rgb(10, 83, 10);
+        padding-bottom: 8px;
+    }
+    button.warningsshadow{
+        background-color: orange;
+        border-radius: 10px;
+        border-bottom: 6px solid rgb(102, 71, 13);
+        padding-bottom: 8px;
+        margin: 15px;
+    }
+    button.dangershadow{
+        background-color: red;
+        border-radius: 10px;
+        border-bottom: 6px solid rgb(121, 21, 21);
+        padding-bottom: 8px;
+        color: white;
+        padding-block-end: 5px;
+        
+
+    }
+
